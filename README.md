@@ -21,14 +21,11 @@ import EasyCountryStateData from "@cloudparker/easy-country-state-data@1.0.0";
 
 EasyCountryStateData.getStates();
 // Get list of states of all countries
+// [ { _id: "US:AK", name: "Alaska", countyId: "US" }, ... , { _id: "IN:AP", name: "Andhra Pradesh",countryId: "IN" }, ... ]
 
-
-EasyCountryStateData.getStates('us');
-// Get list of states of US 
-
-
-EasyCountryStateData.getStates('in');
+EasyCountryStateData.getStates('IN');
 // Get list of states of India
+// [ { _id: "IN:AP", name: "Andhra Pradesh",countryId: "IN" }, ... ]
 
 ```
 
@@ -39,13 +36,10 @@ EasyCountryStateData.getStates('in');
  
 EasyCountryStateData.getStates();
 // Get list of states of all countries
+// [ { _id: "US:AK", name: "Alaska", countyId: "US" }, ... , { _id: "IN:AP", name: "Andhra Pradesh",countryId: "IN" }, ... ]
 
-
-EasyCountryStateData.getStates('us');
-// Get list of states of US 
-
-
-EasyCountryStateData.getStates('in');
+EasyCountryStateData.getStates('IN');
 // Get list of states of India
+// [ { _id: "IN:AP", name: "Andhra Pradesh",countryId: "IN" }, ... ]
 
 ```
